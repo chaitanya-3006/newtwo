@@ -16,4 +16,4 @@ stages{
     bat 'npm run build'
   }
 }
-  
+}
