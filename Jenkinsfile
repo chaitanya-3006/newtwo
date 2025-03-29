@@ -30,7 +30,7 @@ pipeline{
         steps{
             script{
                 echo "deploying the code"
-                bat 'npm deploy'
+                bat 'npm run deploy'
 }
         }}
 }}
