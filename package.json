@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node server.js",
     "test": "echo 'No tests defined' && exit 0",
-    "build": "ench 'Build successfull' && exit 0"
+    "build": "echo 'Build successfull' && exit 0"
   },
   "dependencies": {
     "express": "^4.18.2"
