@@ -5,16 +5,16 @@ pipeline{
 }
 stages{
   stage('Checkout'){
-    Steps{
+    steps{
     bat scm
   }}
   stage('Test'){
-    Steps{bat 'npm install'
+    steps{bat 'npm install'
     bat 'npm test'
     echo 'test not defined'
   }}
   stage('Build'){
-    Steps{bat 'npm run build'
+    steps{bat 'npm run build'
   }}
 }
 }
