@@ -26,12 +26,5 @@ pipeline{
             }
         }
      }
-    stage('Deploy'){
-        steps{
-            script{
-                bat 'npm run deploy'
-            }
-        }
-    }
 }
 }
