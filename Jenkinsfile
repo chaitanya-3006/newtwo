@@ -24,7 +24,7 @@ pipeline{
             script{
                 echo "building"
                 bat 'npm install'
-                bat 'npm run build'
+                bat 'npm start'
             }
         }
      }
